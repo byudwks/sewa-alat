@@ -1,0 +1,115 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-family: "Sofia Sans", sans-serif;
+}
+
+/* main css */
+.nav-link {
+    font-size: 15px;
+}
+
+.nav-link.active {
+    font-weight: 700;
+}
+
+/* end main css */
+
+/* home  */
+.img-hero {
+    background-image: url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay {
+    background: rgb(5, 13, 4);
+    background: linear-gradient(
+        90deg,
+        rgba(5, 13, 4, 0.8715861344537815) 60%,
+        rgba(9, 9, 121, 0.036852240896358524) 100%
+    );
+    height: 100%;
+}
+
+.hero {
+    border: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-start;
+}
+
+.text-hero h1 {
+    font-size: 50px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.text-hero h2 {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.text-hero h3 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    font-style: italic;
+}
+
+/* profil instansi */
+
+#portfolio {
+    background-color: silver;
+}
+.col-port {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-port {
+    height: 370px;
+    width: 400px;
+}
+
+.text-port {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.text-port h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+}
+.text-port p {
+    text-align: justify;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+}
+
+/* layanan */
+.layanan {
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+
+.layanan-1 h1 {
+    font-size: 40px;
+    color: #000;
+    font-weight: 700;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+ .layanan-1 {
+    flex-direction: column;
+ }
